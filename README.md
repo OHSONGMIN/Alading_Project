@@ -31,8 +31,50 @@
 
 ## 📋 프로젝트 구조
 ```
-
-
+├─src
+│  └─com
+│      └─project
+│          ├─controller
+│          │  ├─admin
+│          │  ├─cart
+│          │  ├─members
+│          │  ├─notice
+│          │  └─products
+│          ├─model
+│          │  ├─common
+│          │  ├─dao
+│          │  └─vo
+│          └─mybatis
+└─WebContent
+    ├─admin
+    ├─appdata
+    │  ├─appdata
+    │  │  ├─css
+    │  │  ├─fonts
+    │  │  ├─images
+    │  │  └─js
+    │  ├─cart
+    │  ├─css
+    │  ├─error
+    │  ├─fonts
+    │  ├─images
+    │  ├─js
+    │  ├─members
+    │  │  └─include
+    │  ├─notice
+    │  ├─order
+    │  ├─upload
+    │  └─user
+    ├─error
+    ├─members
+    │  └─include
+    ├─META-INF
+    ├─notice
+    ├─order
+    ├─upload
+    ├─user
+    └─WEB-INF
+        └─lib
 ```
 
 ## 📌 주요 기능
