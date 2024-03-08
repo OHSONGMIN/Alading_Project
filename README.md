@@ -27,7 +27,7 @@
 
 
 ## 🔍 ERD
-
+<img width="990" alt="스크린샷 2024-03-07 130959" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/fcd57acf-adfd-4781-89f7-b79cb76d21b4">
 
 ## 📋 프로젝트 구조
 ```
