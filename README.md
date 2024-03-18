@@ -79,3 +79,25 @@
 
 ## 📌 주요 기능
 
+|메인 페이지|도서 상세 페이지|
+|---|---|
+|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/89557285-7848-4845-bd03-6b43e624129e">|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/18e8f253-886c-4fb4-9f90-832e9f12c667">|
+
+
+|장바구니 목록 페이지|찜 목록 페이지|
+|---|---|
+|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/aea6c6c2-a494-45ab-9cc0-542aaa730d9c">|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/abdb29c2-e293-43f4-8c6b-eb8faf8e7cf9">|
+
+
+|주문/결제 페이지|주문/배송 조회 페이지|
+|---|---|
+|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/f2b7c18c-d32a-4189-9ee5-c4033e37d009">|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/b90733b6-240a-4051-9c8f-d01881f944cb">|
+
+
+|회원 가입 페이지|(관리자)회원별 주문 내역 조회|
+|---|---|
+|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/b7443a76-a583-4904-b9a9-c675f1d0c55f">|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/ecbf9505-b0e8-48cb-abb1-c3179b237b22">|
+
+
+
+
