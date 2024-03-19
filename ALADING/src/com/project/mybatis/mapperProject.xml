@@ -17,9 +17,9 @@
 	<!-- 해당 상품이 없으면 INSERT 하도록 -->
 	<insert id="addCart" parameterType="com.project.model.vo.CartVO">
 		INSERT INTO CART (BOOK_ID,
-		MEM_ID, PRICE, BOOK_CNT, BOOKNAME)
+		MEM_ID, PRICE, BOOK_CNT, BOOKNAME, BOOK_IMAGE)
 		VALUES (#{bookId}, #{memId},
-		#{price}, 1, #{bookName})
+		#{price}, 1, #{bookName}, #{bookImage})
 	</insert>
 
 	<!-- 해당 상품이 있으면 UPDATE 하도록 -->
@@ -30,10 +30,10 @@
 		WHERE MEM_ID = (#{memId}) AND BOOK_ID = (#{bookId})
 	</update>
 
-	<!-- 장바구니 조회 기능 -->
+	<!-- 장바구니 조회 기능 BOOK_ID, MEM_ID, PRICE, BOOK_CNT, BOOKNAME, BOOK_IMAGE -->
 	<select id="checkTotalCart" parameterType="String"
 		resultType="com.project.model.vo.CartVO">
-		SELECT BOOK_ID, MEM_ID, PRICE, BOOK_CNT, BOOKNAME
+		SELECT *
 		FROM CART
 		WHERE MEM_ID = (#{memId})
 	</select>
@@ -75,10 +75,10 @@
 		#{bookCnt}, #{bookName})
 	</insert>
 
-	<!-- 선택 상품 정보 가져오기 -->
+	<!-- 선택 상품 정보 가져오기 BOOK_CNT, BOOK_ID, MEM_ID, PRICE, BOOKNAME-->
 	<select id="getCartInfo" parameterType="Map"
 		resultType="com.project.model.vo.CartVO">
-		SELECT BOOK_CNT, BOOK_ID, MEM_ID, PRICE, BOOKNAME
+		SELECT *
 		FROM CART
 		WHERE MEM_ID = #{memId} AND BOOK_ID = #{bookId}
 	</select>
@@ -135,7 +135,7 @@
 	<select id="selectDetailByOrderId" parameterType="int"
 		resultType="com.project.model.vo.DetailVO">
 		SELECT DETAIL_NUM, ORDER_ID, MEM_ID, BOOK_ID
-		, BOOKNAME, BOOK_CNT, PRICE, BOOK_IMAGE
+		, BOOKNAME, BOOK_CNT, PRICE
 		FROM DETAILS
 		WHERE ORDER_ID = #{orderId}
 	</select>
