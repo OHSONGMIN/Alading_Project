@@ -6,7 +6,15 @@ public class CartVO {
 	public String memId;
 	public int price;
 	public String bookName;
-
+	public String bookImage;
+	
+	public String getBookImage() {
+		return bookImage;
+	}
+	public void setBookImage(String bookImage) {
+		this.bookImage = bookImage;
+	}
+	
 	public String getBookName() {
 		return bookName;
 	}
@@ -42,6 +50,15 @@ public class CartVO {
 	public String toString() {
 		return "cartVO [bookCnt=" + bookCnt + ", bookId=" + bookId + ", memId=" + memId + ", price=" + price
 				+ "]";
+	}
+	
+	public CartVO(String memId, int bookId, int price, String bookName, String bookImage) {
+		super();
+		this.bookId = bookId;
+		this.memId = memId;
+		this.price = price;
+		this.bookName = bookName;
+		this.bookImage = bookImage;
 	}
 	
 	public CartVO(String memId, int bookId, int price, String bookName) {
