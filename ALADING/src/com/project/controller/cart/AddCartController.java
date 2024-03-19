@@ -44,7 +44,9 @@ public class AddCartController extends HttpServlet {
 		String bookName = bvo.getBookName();
 		int price = bvo.getPrice();
 		
-		CartVO vo = new CartVO(memId, bookId, price, bookName); //CartVO 객체 생성
+		String bookImage = bvo.getBookImage();
+		
+		CartVO vo = new CartVO(memId, bookId, price, bookName, bookImage); //CartVO 객체 생성
 		
 		Integer count = CartDAO.checkBook(vo); //Integer타입으로 변경해서 null처리할 수 있도록 함 
 		
