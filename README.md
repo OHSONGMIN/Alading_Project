@@ -94,7 +94,7 @@
 |<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/f2b7c18c-d32a-4189-9ee5-c4033e37d009">|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/b90733b6-240a-4051-9c8f-d01881f944cb">|
 
 
-|회원 가입 페이지|(관리자)회원별 주문 내역 조회|
+|회원 가입 페이지|(관리자) 회원별 주문 내역 조회|
 |---|---|
 |<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/b7443a76-a583-4904-b9a9-c675f1d0c55f">|<img width="500" src="https://github.com/OHSONGMIN/Alading_Project/assets/143185293/ecbf9505-b0e8-48cb-abb1-c3179b237b22">|
 
